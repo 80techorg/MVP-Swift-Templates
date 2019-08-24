@@ -34,6 +34,20 @@
 		</dict>
 		<dict>
 			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Builder</string>
+			<key>Description</key>
+			<string>The builder name</string>
+			<key>Identifier</key>
+			<string>builderName</string>
+			<key>Name</key>
+			<string>Builder Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
 			<string>___VARIABLE_sceneName:identifier___ViewController</string>
 			<key>Description</key>
 			<string>The view controller name</string>
