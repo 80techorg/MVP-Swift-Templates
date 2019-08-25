@@ -14,13 +14,11 @@ class ___VARIABLE_sceneName___ViewController: UIViewController {
     
     // MARK: Injections
     var presenter: ___VARIABLE_sceneName___PresenterInput!
-    var configurator: ___VARIABLE_sceneName___Configurable!
 
     // MARK: View lifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        configurator.configure(viewController: self)
         presenter.viewDidLoad()
         
     }
